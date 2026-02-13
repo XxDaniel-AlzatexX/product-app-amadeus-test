@@ -1,6 +1,6 @@
 # Product Management App
 
-Full-stack web application built with Angular and .NET 8 that allows users to manage products through a complete CRUD interface. This project was developed as part of a technical assessment and follows clean architecture principles and modern frontend practices.
+Full-stack web application built with Angular and .NET 10 that allows users to manage products through a complete CRUD interface. This project was developed as part of a technical assessment and follows clean architecture principles and modern frontend practices.
 
 ---
 
@@ -23,17 +23,16 @@ The solution is structured using a clear separation between frontend and backend
 
 ## Backend
 
-* .NET 8 Web API
+* .NET 10 Web API
 * Entity Framework Core
 * SQL Server LocalDB
 * Swagger (OpenAPI)
 * xUnit (Unit Testing)
-* Dependency Injection
 * Clean Architecture principles
 
 ## Frontend
 
-* Angular 17 (Standalone Components)
+* Angular 21
 * Angular Material
 * Reactive Forms
 * HttpClient
@@ -92,19 +91,7 @@ product-app/
 
 ---
 
-# Features Implemented
-
-## Backend
-
-* REST API with full CRUD operations
-* Entity Framework Core integration
-* SQL Server database
-* DTO pattern
-* Service layer abstraction
-* Swagger documentation
-* Unit testing with xUnit
-
-Endpoints:
+#Endpoints:
 
 ```
 GET     /api/products
@@ -116,35 +103,14 @@ DELETE  /api/products/{id}
 
 ---
 
-## Frontend
-
-* Product list view
-* Product creation form
-* Product deletion
-* Form validation
-* Navigation between views
-* Angular Material UI
-
-Form fields include:
-
-* Name
-* Description
-* Price
-* Stock
-* Category
-* Expiration Date
-* Active status
-
----
-
 # How to Run the Project
 
 ## Prerequisites
 
 Make sure you have installed:
 
-* .NET 8 SDK
-* Node.js (v18 or higher)
+* .NET 10 SDK
+* Node.js v24
 * Angular CLI
 * SQL Server LocalDB (included with Visual Studio)
 
@@ -215,18 +181,6 @@ Run:
 ```
 dotnet test
 ```
-
----
-
-# API Documentation
-
-Swagger UI is enabled and available at runtime:
-
-```
-http://localhost:5168/swagger
-```
-
-This allows testing endpoints independently.
 
 ---
 
