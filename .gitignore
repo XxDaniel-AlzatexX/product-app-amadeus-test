@@ -1,0 +1,16 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+
+# Angular
+node_modules/
+dist/
+.angular/
+
+# VSCode
+.vscode/
+
+# logs
+*.log
