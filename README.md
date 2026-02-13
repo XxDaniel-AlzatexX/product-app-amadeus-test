@@ -192,7 +192,3 @@ dotnet test
 * Pontificia Universidad Javeriana
 
 ---
-
-# Notes
-
-This project demonstrates full-stack development using Angular and .NET, applying clean architecture principles and best practices for maintainability and scalability.
