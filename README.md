@@ -23,7 +23,7 @@ The solution is structured using a clear separation between frontend and backend
 
 ## Backend
 
-* .NET 10 Web API
+* .NET 8 Web API
 * Entity Framework Core
 * SQL Server LocalDB
 * Swagger (OpenAPI)
@@ -32,7 +32,7 @@ The solution is structured using a clear separation between frontend and backend
 
 ## Frontend
 
-* Angular 21
+* Angular 17
 * Angular Material
 * Reactive Forms
 * HttpClient
@@ -109,9 +109,9 @@ DELETE  /api/products/{id}
 
 Make sure you have installed:
 
-* .NET 10 SDK
-* Node.js v24
-* Angular CLI
+* .NET 8 SDK or later
+* Angular CLI 17 or later
+* Node.js 18 or later
 * SQL Server LocalDB (included with Visual Studio)
 
 ---
@@ -133,7 +133,8 @@ dotnet run
 Swagger will be available at:
 
 ```
-http://localhost:5168/swagger
+http://localhost:<port>/swagger
+Note: The port may vary depending on your local configuration. Please check the console output when running the backend.
 ```
 
 Database will be created automatically using Entity Framework.
