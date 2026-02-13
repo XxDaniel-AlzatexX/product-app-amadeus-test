@@ -134,8 +134,8 @@ Swagger will be available at:
 
 ```
 http://localhost:<port>/swagger
-Note: The port may vary depending on your local configuration. Please check the console output when running the backend.
 ```
+Note: The port may vary depending on your local configuration. Please check the console output when running the backend.
 
 Database will be created automatically using Entity Framework.
 
@@ -187,9 +187,9 @@ dotnet test
 
 # Author
 
-Daniel Alzate
-Software Engineer
-Pontificia Universidad Javeriana
+* Daniel Alzate
+* Software Engineer
+* Pontificia Universidad Javeriana
 
 ---
 
