@@ -189,6 +189,5 @@ dotnet test
 
 * Daniel Alzate
 * Software Engineer
-* Pontificia Universidad Javeriana
 
 ---
