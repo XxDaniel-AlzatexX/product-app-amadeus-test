@@ -2,6 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ProductApp.Application.DTOs;
 
+// DTO used for update a existing product
 public class UpdateProductDto
 {
     [Required]
