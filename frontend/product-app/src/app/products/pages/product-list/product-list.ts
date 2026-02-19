@@ -53,6 +53,10 @@ export class ProductListComponent implements OnInit {
     this.router.navigate(['/create']);
   }
 
+  edit(id: number){
+    this.router.navigate(['/edit', id]);
+  }
+
   delete(id: number) {
     this.service.delete(id)
       .subscribe(() => this.load());

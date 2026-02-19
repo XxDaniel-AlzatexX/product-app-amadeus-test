@@ -15,6 +15,10 @@ export class ProductService {
     return this.http.get<Product[]>(this.api);
   }
 
+  getById(id: number){
+    return this.http.get<Product>(`${this.api}/${id}`);
+  }
+
   create(product: any) {
     return this.http.post(this.api, product);
   }
